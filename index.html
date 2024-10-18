@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu Site Completo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção principal -->
+    <section id="home">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Este é um site completo com HTML, CSS e JavaScript.</p>
+        <button id="learn-more">Saiba mais</button>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <h2>Sobre</h2>
+        <p>Este site foi criado como exemplo de um projeto completo de desenvolvimento web.</p>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Design Responsivo</li>
+            <li>SEO e Marketing Digital</li>
+        </ul>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
